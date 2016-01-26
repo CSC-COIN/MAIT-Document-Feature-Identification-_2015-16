@@ -1,0 +1,32 @@
+Python is a widely used general-purpose, high-level programming language.[21][22] Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java.[23][24] The language provides constructs intended to enable clear programs on both a small and large scale.[25]
+
+Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a dynamic type system and automatic memory management and has a large and comprehensive standard library.[26]
+
+Python interpreters are available for installation on many operating systems, allowing Python code execution on a wide variety of systems. Using third-party tools, such as Py2exe or Pyinstaller,[27] Python code can be packaged into stand-alone executable programs for some of the most popular operating systems, allowing the distribution of Python-based software for use on those environments without requiring the installation of a Python interpreter.
+
+CPython, the reference implementation of Python, is free and open-source software and has a community-based development model, as do nearly all of its alternative implementations. CPython is managed by the non-profit Python Software Foundation.
+Word Tokenization with Python NLTK.
+How Text Tokenization Works
+
+Tokenization is a way to split text into tokens. These tokens could be paragraphs, sentences, or individual words. NLTK provides a number of tokenizers in the tokenize module.
+Word Tokenization with Python NLTK
+
+
+TreebankWordTokenizer
+WordPunctTokenizer
+PunktWordTokenizer
+InDüsseldorfItookmyhatoff.
+ButIcan'tputitbackon.
+WhitespaceTokenizer
+pattern
+
+How Text Tokenization Works
+
+Tokenization is a way to split text into tokens. These tokens could be paragraphs, sentences, or individual words. NLTK provides a number of tokenizers in the tokenize module. This demo shows how 5 of them work.
+
+The text is first tokenized into sentences using the PunktSentenceTokenizer. Then each sentence is tokenized into words using 4 different word tokenizers:
+
+    TreebankWordTokenizer
+    WordPunctTokenizer
+    PunctWordTokenizer
+    WhitespaceTokenizer
