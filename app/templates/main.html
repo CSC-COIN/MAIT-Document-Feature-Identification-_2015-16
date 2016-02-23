@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Document Feature Identification</title>
+  </head>
+  <body>
+    <div id="title">
+        <h2><a href="/">Document Feature Identification</a></h2>
+    </div>
+    <hr>
+    <br>
+    <div id="content">
+        <strong>Upload Files</strong><br><br>
+        <form action="/home/" method=post enctype=multipart/form-data>
+          <input type="file" name="file[]" multiple>
+          <input type=submit value=Upload>
+        </form>
+        {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>
+
+
