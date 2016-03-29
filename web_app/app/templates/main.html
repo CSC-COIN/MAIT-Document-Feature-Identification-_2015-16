@@ -4,7 +4,7 @@
     <title>Document Feature Identification</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
     <script src="{{ url_for('static',filename='js/jquery.js') }}"></script>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}">    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}">
     <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src = "{{ url_for('static',filename='js/script.js') }}"></script>
   </head>
@@ -34,22 +34,14 @@
         <!-- /.container -->
     </nav>
     <div class="container">
-      
-      <!-- <div class="row">
-        <div class="col-sm-12">
-          <h4>Upload Files</h4>
-        </div>
-      </div> -->
 
       <form action="/home/" method=post enctype=multipart/form-data>
-            <!-- <input type="file" name="file[]" multiple>
-            <input type="submit" value="Upload"> -->
-        <div class="row"> 
 
+        <div class="row">
           <div class="col-sm-offset-2 col-sm-2">
             <h4>Upload Files</h4>
           </div>
-            
+
           <div class="col-sm-6">
             <div class="input-group">
               <span class="input-group-btn">
@@ -60,7 +52,6 @@
               <input type="text" class="form-control" readonly>
             </div>
           </div>
-
         </div>
 
         <br>
@@ -74,9 +65,7 @@
       </form>
       {% block content %}{% endblock %}
     </div>
-          
+
     </div>
   </body>
 </html>
-
-
