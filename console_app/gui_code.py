@@ -15,6 +15,7 @@ class gui_classify(Tkinter.Frame):
         self.master = master
         self.initUI()
         self.master.geometry("620x530")
+        self.master.resizable(0,0)
 
 #------------------- scroll functionality and canvas,frames -------------------------#
         
